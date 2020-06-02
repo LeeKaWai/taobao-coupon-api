@@ -26,12 +26,12 @@ module.exports = appInfo => {
 
   
   config.taobao = {
-    appkey: '24781052',
-    appsecret: 'c2b30c8394e7af7ff8cf9e3729c431dd',
+    appkey: '',
+    appsecret: '',
     REST_URL: 'https://eco.taobao.com/router/rest',
-    pid: 'mm_121951692_42196389_206786066',
-    siteid: '42196389',
-    adzoneid: '206786066'
+    pid: '',
+    siteid: '',
+    adzoneid: ''
   };
     
   return {
