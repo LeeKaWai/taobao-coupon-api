@@ -1,0 +1,26 @@
+{
+  "name": "taobaoc-coupon-api",
+  "version": "1.0.0",
+  "description": "淘宝客优惠券",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug  --port=7001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeKaWai/taobao-coupon-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeKaWai/taobao-coupon-api/issues"
+  },
+  "homepage": "https://github.com/LeeKaWai/taobao-coupon-api#readme",
+  "dependencies": {
+    "egg": "^2.26.1",
+    "egg-bin": "^4.14.1",
+    "node-taobao-topclient": "^0.1.7"
+  }
+}
